@@ -10,7 +10,7 @@ package
 	public class GameMap
 	{
 		var height:int;
-		var width:int; //地图规模
+		var width:int;
 		
 		var itemList:Array=new Array();
 		var geoList:Array=new Array();
@@ -78,8 +78,6 @@ package
 			if (itemList[x][y]>0) {
 				itemList[x][y] = (-1)*Math.abs(itemList[x][y]);
 			}else if(itemList[x][y]<0) {
-				//trace("Error:mark Void");
-				//trace("Error imformation:",itemList);
 				trace("Marked already!");
 				return void;
 			}else {
