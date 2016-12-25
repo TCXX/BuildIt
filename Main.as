@@ -31,8 +31,6 @@
 		public function Main() {
 			
 			trace("<Main>");
-			
-			//trace(gameEngine.gameMap.itemList);
 
 			addChild(bgLevel);
 			addChild(itemLevel);
